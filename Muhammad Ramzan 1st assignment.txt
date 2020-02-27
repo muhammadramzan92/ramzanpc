@@ -1,0 +1,9 @@
+#MUHAMMAD RAMZAN 
+# PYTHON ASSINMENT 
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+c = int(input("enter first number: "))
+d = int(input("enter second number: "))
+sum = float((a/b)+(c/d))
+print("sum:", sum)
+print("Thank you sir")
