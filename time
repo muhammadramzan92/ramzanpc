@@ -1,0 +1,12 @@
+h1=12
+min1=45
+second1=38
+h2=13
+min2=50
+second2=45
+ss=second1+second2
+mm=min1+min2+(ss/60)
+hh=int(h1+h2+(mm/60))
+mm=int(mm%60)
+ss=int(ss%60)
+print("sum of time is ={}:{}:{}".format(hh,mm,ss))
