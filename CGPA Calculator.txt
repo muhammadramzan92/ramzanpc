@@ -1,0 +1,62 @@
+s1= int (input("enter subject 1 marks = "))
+ch1= int (input("credit hours of s1 = "))
+om1= int (input("enter subject 1 obtained marks = "))
+percentage1= (om1/s1)*100
+if percentage1>= 85:
+  s1gpa=4
+elif percentage1>= 75 :
+  s1gpa=3
+elif percentage1>= 60:
+  s1gpa=2
+elif percentage1>= 40:
+  s1gpa=1
+print("s1 cgpa = ", s1gpa)
+s2= int (input("enter subject 2 marks = "))
+ch2= int (input("credit hours of s2 = "))
+om2= int (input("enter subject 2 obtained marks = "))
+percentage2= (om2/s2)*100
+if percentage2>= 85 :
+  s2gpa=4
+elif percentage2>= 75:
+  s2gpa=3
+elif percentage2>= 60:
+  s2gpa=2
+elif percentage2>= 40:
+  s2gpa=1
+print("s2 cgpa = ", s2gpa)
+s3= int (input("enter subject 3 marks = "))
+ch3= int (input("credit hours of s3 = "))
+om3= int (input("enter subject 3 obtained marks = "))
+percentage3= (om3/s3)*100
+if percentage3>= 85:
+  s3gpa=4
+elif percentage3>= 75:
+  s3gpa=3
+elif percentage3>= 60:
+  s3gpa=2
+elif percentage3>= 40:
+  s3gpa=1
+print("s3 cgpa = ", s3gpa)
+
+s4= int (input("enter subject 4 marks = "))
+ch4= int (input("credit hours of s4 = "))
+om4= int (input("enter subject 4 obtained marks = "))
+percentage4= (om4/s4)*100
+if percentage4>= 85:
+  s4gpa=4
+elif percentage4>= 75:
+  s4gpa=3
+elif percentage4>= 60:
+  s4gpa=2
+elif percentage4>= 40:
+  s4gpa=1
+print("s4 cgpa = ", s4gpa)
+QP1= ch1*s1gpa
+QP2= ch2*s2gpa
+QP3= ch3*s3gpa
+QP4= ch4*s4gpa
+total_ch=ch1+ch2+ch3+ch4
+total_QP= QP1+QP2+QP3+QP4
+CGPA= total_QP/total_ch
+
+print("total cgpa obtained = %.2f" % round(CGPA,2))
